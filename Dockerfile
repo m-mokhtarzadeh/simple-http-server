@@ -1,4 +1,4 @@
-FROM gcc:latest as build
+FROM gcc:9.3.0 as build
 COPY . /usr/src/
 RUN make server
 
