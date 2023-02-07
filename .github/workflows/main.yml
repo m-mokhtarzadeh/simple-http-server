@@ -50,7 +50,7 @@ jobs:
         name: Build & push Docker image V4
         with:
           image: mohamadmokhtar/library
-          tags: simple-http-server-4
+          tags: simple-http-server-v4
           registry: docker.io
           dockerfile: Dockerfile
           directory: V4
